@@ -2,12 +2,11 @@ import * as React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/ui/layout';
-import HeroBlock from '../components/home/HeroBlock';
 
-const IndexPage = () => (
+const ContactPage = () => (
 	<Layout>
-		<HeroBlock />
+		<p>My contact us Page</p>
 	</Layout>
 );
 
-export default IndexPage;
+export default ContactPage;
